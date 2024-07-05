@@ -9,7 +9,4 @@ import { ChangeDetectionStrategy, Component, EventEmitter, Output } from "@angul
 
 export class WinnerScreenComponent {
   @Output() onStartNewGame = new EventEmitter<void>();
-
-  public readonly fireworks = new Array(3);
-  public readonly parts = new Array(72);
 }
